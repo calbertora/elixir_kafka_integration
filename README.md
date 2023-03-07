@@ -1,5 +1,10 @@
 # ElixirKafkaIntegration
 
+run the docker compose file
+
+inside the kafka container run:
+`kafka-topics --create --bootstrap-server kafka:9092 --replication-factor 1 --partitions 3 --topic elixir_integration`
+
 **TODO: Add description**
 
 ## Installation
